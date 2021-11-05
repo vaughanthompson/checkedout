@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="17.7" y1="49.08" x2="48.69" y2="18.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f15a24"/>
+      <stop offset="1" stop-color="#fbb03b"/>
+    </linearGradient>
+  </defs>
+  <path d="M63.65,55,41.26,32.61a21.93,21.93,0,1,0-8,8.47L55.39,63.26a1.17,1.17,0,0,0,1.67,0l6.59-6.59A1.17,1.17,0,0,0,63.65,55ZM36.9,22.16h-4a.35.35,0,0,0-.35.34v9.93a.35.35,0,0,1-.35.35H25.45a.35.35,0,0,1-.35-.35V26.75a.35.35,0,0,0-.34-.35H19.07a.35.35,0,0,0-.34.35v5.68a.35.35,0,0,1-.35.35H11.64a.35.35,0,0,1-.35-.35V22.5a.34.34,0,0,0-.34-.34h-4a.35.35,0,0,1-.23-.62l15-12.48a.35.35,0,0,1,.45,0l5.09,4.24V11.88a.35.35,0,0,1,.35-.35h4.61a.34.34,0,0,1,.35.35v5.69a.35.35,0,0,0,.13.26l4.45,3.71A.35.35,0,0,1,36.9,22.16Z" style="fill: url(#linear-gradient)"/>
+</svg>
