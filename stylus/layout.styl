@@ -1,8 +1,10 @@
 //core layout
 main > article   
     padding: padStd padL padStd padL
-main > article.subhead 
-    padding-top: padXL
+
+@media phoneRule
+    main > article.subhead 
+        padding-top: padXL*1.5
     
 @media ttrigger
     main, div#priNav-v2, div#priNav, div#secNav, div#carouselIndicator, div#slideNav
