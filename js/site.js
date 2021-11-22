@@ -67,10 +67,10 @@
     $(".slickSlider").slick({
         autoplay:true,
         autoplaySpeed:5000,
-        arrows:true,
-        dots:true,
+        arrows:false,
+        dots:false,
         fade:true,
-        speed:1000,
+        speed:2000,
         pauseOnHover:false
     });
 

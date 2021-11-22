@@ -1,6 +1,8 @@
 //core layout
-
-   
+main > article   
+    padding: padStd padL padStd padL
+main > article.subhead 
+    padding-top: padXL
     
 @media ttrigger
     main, div#priNav-v2, div#priNav, div#secNav, div#carouselIndicator, div#slideNav
@@ -9,7 +11,7 @@
 
     main, body > footer
         padding: padStd
-        padding-bottom: padXL
+        padding-bottom: padM
     body > footer
         padding-top: padM*1.5
     main.home        
@@ -30,7 +32,7 @@
         justify-content: space-between
         align-items: center
         flex-wrap: wrap
-        padding: padXS padXS
+        padding: padStd padXXS padXS padXS
         width:100%
     body > header.fixed
         min-height: 11vh
@@ -77,7 +79,7 @@
 
     main > article        
         margin: marStd auto
-        padding: padXXS 0 0 0
+        padding: padStd padL padStd padL
         display: flex
         justify-content: space-between
     main > article.blog
@@ -313,7 +315,7 @@ div.content.cE
 
 @media dtrigger 
     div.content > section
-        flex-basis: 43%
+        flex-basis: 50%
     article.grid.allCols div.content
         display: flex 
         flex-wrap: nowrap
@@ -513,7 +515,9 @@ div.containMNav nav
     display: flex
     flex-direction: row
     flex-wrap: wrap
-    justify-content: space-around
+    justify-content: flex-start
+    column-gap: 1.5vw
+
 div.containMNav nav a
     flex-basis: 48%
     padding: padM*1.5 padM 
@@ -521,10 +525,33 @@ div.containMNav nav a
     font-size:0.9em !important
     margin: 2px 0
     background-color: rgba(0,0,0,0.05)
-div.containMNav h6
-    font-size: 1em
+    flex-grow: 1
+    text-align: center
+    border-radius: 8px
+
+
+div.containMNav nav.rows a
+    flex-basis: 100%
+    padding: padM*1.5 padM 
+    line-height: 120%
+    font-size:0.9em !important
+    margin: 2px 0
+    background: none
+    border-bottom: 1px solid blackAlp10
+    text-align: left
+
+div.containMNav h3
+    font-size: 1.2em
     margin-top: marStd
     margin-bottom: marL
+    display: inline-flex
+    width: 100%
+div.containMNav h3 a
+    font-weight:500
+    font-size: .85em
+    margin-left: auto 
+div.containMNav h3 a > i
+    font-size: .8em
 @media mtrigger
     html.noscroll 
         overflow: hidden 
@@ -548,7 +575,7 @@ div.containMNav h6
     footer
         padding:7vw !important
     main > article > section
-        padding:10vw 7vw 0 7vw !important
+        //padding:10vw 7vw 0 7vw !important
 
     main > .ctaButton:first-of-type
         margin-left: 7vw

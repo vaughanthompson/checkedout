@@ -18,7 +18,7 @@
 brand0 = rgba(247,187,0,1.0) //# brand yellow
 brand1 = rgba(241,93,37,1.0) //# brand orange
 brand2 = rgba(0,157,255,1.0) //# button blue
-brand3 = rgba(100,100,100,1.0) //#
+brand3 = rgba(191,43,0,1.0) //# dark orange
 brand4 = rgba(180,180,180,1.0) //#
 brand5 = rgba(255,255,255,1.0) //# 
 brand6 = rgba(255,0,0,1.0) //# 
@@ -155,31 +155,22 @@ html, body
 body
     font-size: 16px
     // background: linear-gradient(top, white, brand1)
-body.lightTheme
-    background-color: brand5
-    color: brand2
-body.lightTheme > header.sticky
-    background-color: brand5    
-body.darkTheme
-    background-color: brand1  
-    color: brand3
-body.darkTheme > header.sticky
-    background-color: brand1 
+    color: #262626
 main
-    border-bottom: 1px solid blackAlp5    
+    //border-bottom: 1px solid blackAlp5    
 body > footer
-    background-color: blackAlp5
-    border-top: 1px solid whiteAlp90
+    background-color: white
+    border-top: 1px solid brand4
 hr
     border: none
-    border-bottom: 3px solid brand1
-    margin:marStd 0
+    border-bottom: 1px solid brand1
+    margin:marXS 0
     @media phoneRule
         margin: marL 0
-hr.minor
+hr.medium
     border-bottom-width: 2px
-hr.tiny
-    border-bottom-width: 1px    
+hr.thick
+    border-bottom-width: 3px    
 img 
     width 100%
     height auto

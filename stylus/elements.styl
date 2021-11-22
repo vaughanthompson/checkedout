@@ -75,7 +75,7 @@ span.ctaButton
     font-size: 0.95em
     font-weight:500
     border: 1px solid brand2
-    padding:padXXS padStd padXXS padStd
+    padding:padXXS padXS padXXS padXS
     //margin-right:marXXS
     display: inline-flex
     justify-content: space-between
@@ -107,11 +107,12 @@ nav a.ctaButton
     //border-color: brand1
     //color:brand1 !important
     //margin-left: 0
-    margin-right: marXS
-    //margin-bottom: 0
+    margin-left: 0
+    margin-bottom: 0
     //padding:padXXS*.75 padXS
     //white-space: nowrap
-
+nav a.ctaButton.logout
+    margin-left: 0
 a.ctaButton i
     margin-left:15px 
     margin-right:10px;
@@ -136,7 +137,10 @@ div.containSlider div.content div > a:hover
 a.ctaButton:hover i
     margin-left:25px
     margin-right:0px
-    transition: 0.5s 
+    transition: 0.5s
+a.ctaButton.logout 
+    background: alert
+    border-color: alert
 @media phoneRule
     a.majorCTA
         font-size:1.1em
@@ -426,19 +430,15 @@ body > footer ul
     padding-bottom: padXXS
     // border-bottom: 2px solid blackAlp10
 
-body > footer ul > strong
-    display: inline-block
-    font-size:1em
-    line-height: 1.6em
-    margin-bottom: 1em
+
 
 body > footer ul > li
-    font-size:0.9em
     list-style-type: none
     line-height: 1.4em
-    padding: 0.7em 0
-    border-top: 1px solid white
-    
+    padding: 0.85em 0 0.7em 0
+    border-top: 1px solid blackAlp10
+body > footer ul > li:first-child
+    border-top:none    
 
 
 
@@ -460,16 +460,17 @@ div.slideTextOverlay
     align-items: center
     justify-content: center
     width: 100%
-    font-size: 3.5em
-    letter-spacing: -0.05em
-    font-weight: 600
+    //font-size: 3.5em
+    //letter-spacing: -0.05em
+    //font-weight: 600
     padding:0
 body.lightSlider div.slideTextOverlay
     color: brand2
 body.darkSlider div.slideTextOverlay
     color: brand1
 
-
+div.slideTextOverlay *
+    //{test}
 
 
 
@@ -499,16 +500,21 @@ body.darkSlider div.slideTextOverlay
     display: inline-flex
     align-items: center
     line-height: 1.3em
+    font-size: 0.85em
     flex-wrap: wrap
 #breadcrumb nav a
     padding-right: 0
     text-decoration: underline
+    margin-left:0
+    padding-left:0
 #breadcrumb nav a,
 #breadcrumb nav a.activeLink
-    font-weight: 500 !important
+    font-weight: 400 !important
     @media phoneRule
         margin-right:5px
 #breadcrumb nav i
+    color: brand0
+    margin-top:2px
     padding: 0 5px  
     @media phoneRule
         padding: 0 5px 0 0
@@ -1035,3 +1041,24 @@ body.home div.catList
         margin-bottom: marXS
         margin-top: 0
 
+
+
+
+// check promo homepage
+div.checkPromo
+    margin-bottom: marXS
+div.checkPromo > div
+    display: flex
+    flex-wrap: nowrap
+    width 100%
+
+div.checkPromo > div > *:first-child
+    //flex-basis: 35%
+    @media phoneRule
+        flex-grow: 1
+div.checkPromo > div > *:last-child
+    margin-left:1vw
+
+div.sliderCopy
+    @media ttrigger
+        max-width:95%    
