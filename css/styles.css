@@ -26,8 +26,7 @@ body {
   color: #262626;
 }
 body > footer {
-  background-color: #fff;
-  border-top: 1px solid #b4b4b4;
+  background-color: #f5f5f5;
 }
 hr {
   border: none;
@@ -70,13 +69,12 @@ main > article {
     padding-left: 5vw;
     padding-right: 5vw;
   }
-  main,
-  body > footer {
+  main {
     padding: 2vw;
     padding-bottom: 3vw;
   }
   body > footer {
-    padding-top: 4.5vw;
+    padding: 5vw 7vw;
   }
   main.home {
     padding: 2vw;
@@ -311,10 +309,6 @@ main > article {
   }
 }
 @media screen and (min-width: 1500px) {
-  body > footer {
-    padding-left: 7vw;
-    padding-right: 7vw;
-  }
   main > article.blog section:first-child,
   main > article.blog section:last-child {
     padding-right: 21vw;
