@@ -206,7 +206,7 @@ main > article {
   main > article.bannerOverlap {
     background-color: #fff;
     border-radius: 1em;
-    padding: 3vw 3.5vw 0 3.5vw;
+    padding: 3.75vw 3.5vw 1vw 3.5vw;
     margin-top: -8vw;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -696,7 +696,8 @@ div.content.cE {
   article > header {
     max-width: 40vw;
   }
-  .row.flip div.content {
+  .row.flip div.content,
+  article.flip {
     -webkit-box-direction: reverse;
     -o-box-direction: reverse;
     -webkit-box-orient: horizontal;
