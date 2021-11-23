@@ -1012,20 +1012,19 @@ span.ctaButton
         padding:padM padL
         font-size: 1em
         font-weight: 300
-body.home div.catList
-    margin: marM auto marM auto
+div.catList
     padding: padXXS 0 padXXS 0
 @media dtrigger
-    body.home div.catList
-        margin-left: marL
-        margin-right: marL
-    body.home div.catList div.catGroup
+    div.catList
+        width: 100%
+    div.catList div.catGroup
         display: flex
         justify-content: space-between
+        align-items: stretch
         flex-wrap: wrap
         margin-top: marStd
         margin-bottom: marXS
-    body.home div.catList a.catItem
+    div.catList a.catItem
         display:flex
         flex-direction:column
         justify-content:flex-start
@@ -1035,9 +1034,9 @@ body.home div.catList
         padding-bottom:padStd
         border-radius: 10px
         box-shadow: 0 0 10px 5px blackAlp10
-    body.home div.catList a.catItem div.imageThumb
+    div.catList a.catItem div.imageThumb
         height: 13vw
-    body.home div.catList a.catItem div.keyStats
+    div.catList a.catItem div.keyStats
         margin-bottom: marXS
         margin-top: 0
 

@@ -15,7 +15,7 @@ main > article
         padding: padStd
         padding-bottom: padM
     body > footer
-        padding: padL padXL
+        padding: padL padXL*1.5
     main.home        
         padding: padStd 
 
@@ -81,9 +81,18 @@ main > article
 
     main > article        
         margin: marStd auto
-        padding: padStd padL padStd padL
+        padding: padStd padXL*1.25 padStd padXL*1.25
         display: flex
         justify-content: space-between
+    main > article.bannerOverlap
+        background-color: white
+        border-radius: 1em
+        padding: padM padXL*0.5 0 padXL*0.5
+        margin-top:-8vw
+        margin-left: marL
+        margin-right: marL
+        z-index: 2000
+        position: relative
     main > article.blog
         display: block
     main > article.subhead,
@@ -168,7 +177,7 @@ div.contentHdr
     position: relative
     z-index: 2    
 div.content > section > div
-    padding: padL
+    padding: padXL*1.25
 *.pullUp div.content > section > div
     padding-top: 0
 *.inset div.content
@@ -185,8 +194,8 @@ div.content > section > div
 *.smallH
     height: smallH  
 .largeH div.content > section > div
-    padding-top: padL
-    padding-bottom: padL
+    padding-top: padM
+    padding-bottom: padXL
 .halfH div.content > section > div
     padding-top: padM
     padding-bottom: padM
@@ -315,7 +324,7 @@ div.content.cE
 
 @media dtrigger 
     div.content > section
-        flex-basis: 50%
+        flex-basis: 55%
     article.grid.allCols div.content
         display: flex 
         flex-wrap: nowrap

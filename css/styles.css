@@ -74,7 +74,7 @@ main > article {
     padding-bottom: 3vw;
   }
   body > footer {
-    padding: 5vw 7vw;
+    padding: 5vw 10.5vw;
   }
   main.home {
     padding: 2vw;
@@ -193,7 +193,7 @@ main > article {
   }
   main > article {
     margin: 2vw auto;
-    padding: 2vw 5vw 2vw 5vw;
+    padding: 2vw 8.75vw 2vw 8.75vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: box;
@@ -202,6 +202,16 @@ main > article {
     -o-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+  }
+  main > article.bannerOverlap {
+    background-color: #fff;
+    border-radius: 1em;
+    padding: 3vw 3.5vw 0 3.5vw;
+    margin-top: -8vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    z-index: 2000;
+    position: relative;
   }
   main > article.blog {
     display: block;
@@ -332,7 +342,7 @@ div.contentHdr {
   z-index: 2;
 }
 div.content > section > div {
-  padding: 5vw;
+  padding: 8.75vw;
 }
 *.pullUp div.content > section > div {
   padding-top: 0;
@@ -360,8 +370,8 @@ div.content > section > div {
   height: 25vh;
 }
 .largeH div.content > section > div {
-  padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-top: 3vw;
+  padding-bottom: 7vw;
 }
 .halfH div.content > section > div {
   padding-top: 3vw;
@@ -576,8 +586,8 @@ div.content.cE {
 }
 @media screen and (min-width: 1100px) {
   div.content > section {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
   }
   article.grid.allCols div.content {
     display: -webkit-box;
@@ -2389,16 +2399,14 @@ span.ctaButton {
     font-weight: 300;
   }
 }
-body.home div.catList {
-  margin: 3vw auto 3vw auto;
+div.catList {
   padding: 1vw 0 1vw 0;
 }
 @media screen and (min-width: 1100px) {
-  body.home div.catList {
-    margin-left: 5vw;
-    margin-right: 5vw;
+  div.catList {
+    width: 100%;
   }
-  body.home div.catList div.catGroup {
+  div.catList div.catGroup {
     display: -webkit-box;
     display: -ms-flexbox;
     display: box;
@@ -2407,6 +2415,10 @@ body.home div.catList {
     -o-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: stretch;
+    -o-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
     -webkit-box-lines: multiple;
     -moz-box-lines: multiple;
     -o-box-lines: multiple;
@@ -2415,7 +2427,7 @@ body.home div.catList {
     margin-top: 2vw;
     margin-bottom: 1.5vw;
   }
-  body.home div.catList a.catItem {
+  div.catList a.catItem {
     display: -webkit-box;
     display: -ms-flexbox;
     display: box;
@@ -2437,10 +2449,10 @@ body.home div.catList {
     -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
     box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
   }
-  body.home div.catList a.catItem div.imageThumb {
+  div.catList a.catItem div.imageThumb {
     height: 13vw;
   }
-  body.home div.catList a.catItem div.keyStats {
+  div.catList a.catItem div.keyStats {
     margin-bottom: 1.5vw;
     margin-top: 0;
   }
@@ -2772,8 +2784,8 @@ strong {
 }
 .gradient3 {
   background-blend-mode: multiply;
-  background: -webkit-gradient(linear, left top, right top, from(#dd4911), color-stop(#e7491b), color-stop(#f15d25), color-stop(rgba(241,93,37,0.95)), color-stop(rgba(241,93,37,0.9)), color-stop(rgba(241,93,37,0.7)), color-stop(rgba(241,93,37,0.55)), to(rgba(247,187,0,0)));
-  background: linear-gradient(to right, #dd4911, #e7491b, #f15d25, rgba(241,93,37,0.95), rgba(241,93,37,0.9), rgba(241,93,37,0.7), rgba(241,93,37,0.55), rgba(247,187,0,0));
+  background: -webkit-gradient(linear, left top, right top, from(#dd4911), color-stop(#e7491b), color-stop(rgba(241,93,37,0.95)), color-stop(rgba(241,93,37,0.87)), color-stop(rgba(241,93,37,0.9)), color-stop(rgba(241,93,37,0.7)), color-stop(rgba(241,93,37,0.55)), to(rgba(247,187,0,0.1)));
+  background: linear-gradient(to right, #dd4911, #e7491b, rgba(241,93,37,0.95), rgba(241,93,37,0.87), rgba(241,93,37,0.9), rgba(241,93,37,0.7), rgba(241,93,37,0.55), rgba(247,187,0,0.1));
 }
 .gradientShdw {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.05)), color-stop(10vh, transparent));
@@ -2782,8 +2794,8 @@ strong {
 @media screen and (max-width: 1100px) {
   .gradient3 {
     background-blend-mode: multiply;
-    background: -webkit-gradient(linear, left top, right bottom, from(#fff), color-stop(rgba(255,255,255,0.9)), color-stop(rgba(255,255,255,0.9)), to(rgba(255,255,255,0.1)));
-    background: linear-gradient(to bottom right, #fff, rgba(255,255,255,0.9), rgba(255,255,255,0.9), rgba(255,255,255,0.1));
+    background: -webkit-gradient(linear, left top, right top, from(#dd4911), color-stop(#e7491b), color-stop(#f15d25), color-stop(rgba(241,93,37,0.95)), color-stop(rgba(241,93,37,0.9)), color-stop(rgba(241,93,37,0.7)), color-stop(rgba(241,93,37,0.55)), to(rgba(247,187,0,0)));
+    background: linear-gradient(to right, #dd4911, #e7491b, #f15d25, rgba(241,93,37,0.95), rgba(241,93,37,0.9), rgba(241,93,37,0.7), rgba(241,93,37,0.55), rgba(247,187,0,0));
   }
 }
 .blur {
