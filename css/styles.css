@@ -223,8 +223,6 @@ main > article {
   main > article section {
     -ms-flex-preferred-size: 47%;
         flex-basis: 47%;
-    padding-left: 2vw;
-    padding-right: 2vw;
   }
   main > article.full section {
     -ms-flex-preferred-size: auto;
@@ -1046,6 +1044,14 @@ div.containMNav h3 a > i {
   }
   main > article {
     margin-bottom: 10vw;
+  }
+}
+@media screen and (min-width: 750px) {
+  .centerMe {
+    -webkit-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 .icon {
@@ -2525,7 +2531,8 @@ body > footer h5 {
   color: rgba(0,0,0,0.5);
 }
 ul {
-  margin-bottom: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   padding-left: 1em;
 }
 ul li {
@@ -2594,19 +2601,20 @@ h4,
 h5,
 h6 {
   margin: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 h1 {
   font-weight: 1000;
   font-size: 2.8em;
   line-height: 105%;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.045em;
 }
 h2 {
   font-weight: 1000;
-  font-size: 2.2em;
+  font-size: 2.1em;
   line-height: 105%;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.035em;
+  color: #f15d25;
 }
 h3,
 body.model h2 {
@@ -2614,6 +2622,7 @@ body.model h2 {
   font-size: 1.7em;
   line-height: 115%;
   letter-spacing: -0.035em;
+  color: #f15d25;
 }
 h4 {
   font-weight: 600;
@@ -2663,6 +2672,12 @@ strong {
 }
 .price {
   color: #f00;
+}
+.lighttext h1,
+.lighttext h2,
+.lighttext h3,
+.lighttext h4 {
+  color: #fff;
 }
 @media screen and (max-width: 1100px) {
   h1 {
