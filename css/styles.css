@@ -584,8 +584,8 @@ div.content.cE {
 }
 @media screen and (min-width: 1100px) {
   div.content > section {
-    -ms-flex-preferred-size: 55%;
-        flex-basis: 55%;
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
   }
   article.grid.allCols div.content {
     display: -webkit-box;
@@ -2728,6 +2728,9 @@ strong {
     letter-spacing: -0.045em;
     text-indent: -0.08em;
     color: #b4b4b4;
+  }
+  h1.bigger {
+    font-size: 3em;
   }
 }
 /* effects */
