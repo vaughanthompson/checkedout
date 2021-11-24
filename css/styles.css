@@ -1124,6 +1124,7 @@ body > footer .icon {
 }
 a.majorCTA,
 a.ctaButton {
+  line-height: 1em;
   color: #fff;
   background-color: #bf2b00;
   padding: 1vw 1.5vw 1vw 1.5vw;
@@ -1138,6 +1139,7 @@ div#masthead a.majorCTA {
   color: #fff !important;
 }
 a.ctaButton,
+a.btn-outline-dark,
 span.ctaButton {
   border-radius: 6px;
   background: #009dff;
@@ -1160,6 +1162,7 @@ span.ctaButton {
 }
 @media screen and (max-width: 750px) {
   a.ctaButton,
+  a.btn-outline-dark,
   span.ctaButton {
     padding: 3vw 5vw;
     font-weight: 300;
@@ -1211,6 +1214,8 @@ a.ctaButton i:before {
 }
 a.ctaButton:hover,
 a.ctaButton:hover > i:before,
+a.btn-outline-dark:hover,
+a.btn-outline-dark:hover > i:before,
 span.ctaButton:hover,
 span.ctaButton:hover > i:before {
   background: none !important;
