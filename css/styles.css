@@ -1575,6 +1575,9 @@ img.med {
   width: 75%;
   margin: 0px auto;
 }
+img.lozenge {
+  width: 100px;
+}
 div.slider {
   background-color: #f15d25;
 }
@@ -2495,7 +2498,7 @@ div.checkPromo > div {
   }
 }
 div.checkPromo > div > *:last-child {
-  margin-left: 1vw;
+  margin-left: 0.5vw;
 }
 @media screen and (min-width: 750px) {
   div.sliderCopy {
@@ -2622,7 +2625,6 @@ body.model h2 {
   font-size: 1.7em;
   line-height: 115%;
   letter-spacing: -0.035em;
-  color: #f15d25;
 }
 h4 {
   font-weight: 600;
@@ -2644,7 +2646,7 @@ h6 {
 }
 p {
   font-weight: 350;
-  font-size: 0.95em;
+  font-size: 0.98em;
   line-height: 1.4em;
   letter-spacing: -0.025em;
   margin-top: 1vw;
@@ -2808,8 +2810,8 @@ strong {
 }
 .gradient3 {
   background-blend-mode: multiply;
-  background: -webkit-gradient(linear, left top, right top, from(#dd4911), color-stop(#e7491b), color-stop(rgba(241,93,37,0.95)), color-stop(rgba(241,93,37,0.87)), color-stop(rgba(241,93,37,0.9)), color-stop(rgba(241,93,37,0.7)), color-stop(rgba(241,93,37,0.55)), to(rgba(247,187,0,0.1)));
-  background: linear-gradient(to right, #dd4911, #e7491b, rgba(241,93,37,0.95), rgba(241,93,37,0.87), rgba(241,93,37,0.9), rgba(241,93,37,0.7), rgba(241,93,37,0.55), rgba(247,187,0,0.1));
+  background: -webkit-gradient(linear, left top, right top, from(#dd4911), color-stop(#e7491b), color-stop(rgba(241,93,37,0.95)), color-stop(rgba(241,93,37,0.8)), color-stop(rgba(241,93,37,0.7)), color-stop(rgba(241,93,37,0.6)), color-stop(rgba(241,93,37,0.55)), to(rgba(247,187,0,0.1)));
+  background: linear-gradient(to right, #dd4911, #e7491b, rgba(241,93,37,0.95), rgba(241,93,37,0.8), rgba(241,93,37,0.7), rgba(241,93,37,0.6), rgba(241,93,37,0.55), rgba(247,187,0,0.1));
 }
 .gradientShdw {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.05)), color-stop(10vh, transparent));
