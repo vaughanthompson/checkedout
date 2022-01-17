@@ -221,8 +221,8 @@ main > article {
     margin-top: 0;
   }
   main > article section {
-    -ms-flex-preferred-size: 47%;
-        flex-basis: 47%;
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
   }
   main > article.full section {
     -ms-flex-preferred-size: auto;
@@ -1576,7 +1576,7 @@ img.med {
   margin: 0px auto;
 }
 img.lozenge {
-  width: 100px;
+  width: 170px;
 }
 div.slider {
   background-color: #f15d25;
@@ -2473,32 +2473,18 @@ div.catList {
   }
 }
 div.checkPromo {
-  margin-bottom: 1.5vw;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.5);
+  padding: 1.5vw 2vw 0.75vw 2vw;
+  border-radius: 0.5em;
 }
 div.checkPromo > div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
   -webkit-box-lines: single;
   -moz-box-lines: single;
   -o-box-lines: single;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   width: 100%;
-}
-@media screen and (max-width: 750px) {
-  div.checkPromo > div > *:first-child {
-    -webkit-box-flex: 1;
-    -o-box-flex: 1;
-    -ms-box-flex: 1;
-    box-flex: 1;
-    -ms-flex-positive: 1;
-        flex-grow: 1;
-  }
-}
-div.checkPromo > div > *:last-child {
-  margin-left: 0.5vw;
 }
 @media screen and (min-width: 750px) {
   div.sliderCopy {
@@ -2678,8 +2664,14 @@ strong {
 .lighttext h1,
 .lighttext h2,
 .lighttext h3,
-.lighttext h4 {
+.lighttext h4,
+.lighttext h5,
+.lighttext h6 {
   color: #fff;
+}
+.checkPromo h5 span,
+.checkPromo h5 i:before {
+  color: #f7bb00;
 }
 @media screen and (max-width: 1100px) {
   h1 {

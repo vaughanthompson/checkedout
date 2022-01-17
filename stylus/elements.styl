@@ -371,7 +371,7 @@ img.med
     width: 75%
     margin: 0px auto
 img.lozenge
-    width: 100px
+    width: 170px
 
 
 
@@ -1050,19 +1050,23 @@ div.catList
 
 // check promo homepage
 div.checkPromo
-    margin-bottom: marXS
+    display: inline-block
+    background-color: blackAlp50
+    padding: padXS padStd padXXS*0.75 padStd
+    border-radius: 0.5em
+    //margin-top: marXS
 div.checkPromo > div
-    display: flex
+    //display: flex
     flex-wrap: nowrap
     width 100%
-
+/*
 div.checkPromo > div > *:first-child
     //flex-basis: 35%
     @media phoneRule
         flex-grow: 1
 div.checkPromo > div > *:last-child
     margin-left:0.5vw
-
+*/
 div.sliderCopy
     @media ttrigger
         max-width:95%    
