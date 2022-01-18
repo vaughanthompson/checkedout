@@ -225,8 +225,8 @@ main > article {
         flex-basis: 45%;
   }
   main > article.full section {
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
   main > article section:first-child {
     padding-left: 0;
@@ -2569,7 +2569,7 @@ li a:hover,
 }
 .activeLink,
 .activeLink:hover {
-  color: #bf2b00 !important;
+  color: #009dff !important;
 }
 nav a,
 footer a {
