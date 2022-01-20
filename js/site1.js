@@ -230,5 +230,11 @@
     });
 
 
+    $('a.showHideTrigger').click(function(){
+        $(this).closest('div.showHideContainer').find('div.showHideDetail').slideToggle(250);
+        return false;
+    });
+
+
 });
 
