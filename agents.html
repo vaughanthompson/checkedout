@@ -42,6 +42,7 @@
 
     <link rel="stylesheet" type="text/css" href="/css/styles.css" />
     <link rel="stylesheet" type="text/css" href="/css/form.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles-2.css" />
 
     <!-- bootstrap css stuff -->
     
@@ -125,11 +126,8 @@
     
     
 
-    <!-- start content -->
     <main class="gradientShdw">
-
-
-        
+                
         <div class="containSlider">
 
             <div class="slideTextOverlay halfH lighttext">
@@ -148,9 +146,9 @@
             </div>
 
 
-            <div class="slickSlider">
-                <article>
-                    <div class="picturefill-background halfH"><!-- multply lighten here-->
+            <div class="slickSlider slick-initialized slick-slider">
+                <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 3200px;"><article class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 1600px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 2000ms ease 0s;">
+                    <div class="picturefill-background halfH" style="background-image: url(&quot;/images/artdir/agents1/xl.jpg&quot;); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat no-repeat;"><!-- multply lighten here-->
                         <div class="contentHdr gradient3"><!-- gradient or straight bgoverlay here-->
                             <div class="content rS cC">
                                 <section>
@@ -164,10 +162,8 @@
                         <span data-src="/images/artdir/agents1/l.jpg" data-media="(min-width: 1000px)"></span><!-- desktop -->
                         <span data-src="/images/artdir/agents1/xl.jpg" data-media="(min-width: 1600px)"></span><!-- lgdesktop -->
                     </div>
-                </article>
-
-                <article>
-                    <div class="picturefill-background halfH"><!-- multply lighten here-->
+                </article><article class="slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" style="width: 1600px; position: relative; left: -1600px; top: 0px; z-index: 999; opacity: 1;">
+                    <div class="picturefill-background halfH" style="background-image: url(&quot;/images/artdir/buyers/xl.jpg&quot;); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat no-repeat;"><!-- multply lighten here-->
                         <div class="contentHdr gradient3"><!-- gradient or straight bgoverlay here-->
                             <div class="content rS cC">
                                 <section>
@@ -181,7 +177,9 @@
                         <span data-src="/images/artdir/buyers/l.jpg" data-media="(min-width: 1000px)"></span><!-- desktop -->
                         <span data-src="/images/artdir/buyers/xl.jpg" data-media="(min-width: 1600px)"></span><!-- lgdesktop -->
                     </div>
-                </article>
+                </article></div></div>
+
+                
 
                           
             </div>
@@ -201,59 +199,50 @@
         <section>
             <h2>Agent Benefits</h2>
             <p>Agents beneﬁts include hot leads delivered in real time, identifying buyer intent faster, ensuring there are no surprises from buyer due diligence, and the <strong>CheckedOut Agent Incentive scheme.</strong></p>
-
             <h3>CheckedOut is 100% FREE for agents to use- we reward you in fact! Win-Win.</h3>
-
-
             <p>For more on the CheckedOut Agent Incentive scheme, <strong>sign up FREE below.</strong></p>
-            
-
-            <a href="" class="ctaButton">Agent Registration</a>
+            <a title="Agent Registration" class="ctaButton" href="/Identity/Account/Register?isAgent=true">Agent Registration</a>
         </section>     
-        
-</article>
-
-<hr>
-<!-- end cms landing content -->
-
-<article class="centerMe">
-    <section>
-        <h1>Snapshot</h1>
-        <p>You can now offer your vendor a massively reduced (possibly FREE) Pre-sale Building Inspection.</p>
-        <p>MSIP is the new process creating Independent, trusted reports the homebuyer can rely on.</p>
-        <p>The ROI for the Home-seller is now maximised for their Pre-sale Inspection report.</p>
-    </section>      
-    <section class="d">
-        <picture>
-            <img src="/images/content/agents1-1@0.5x.jpg" srcset="/images/content/agents1.jpg 2x">    
-        </picture>
-    </section> 
-</article>
-
-<hr>
-
-
-<article class="flip centerMe">
-    <section>
             
-        <h1>Unique sales models</h1>
-        <p>You the agent, can now offer your vendors CheckedOut's unique sales models as an additional incentive  for your seller to order a Pre Sale Inspection Report through CheckedOut, beyond the benefit of aiding buyer due diligence.</p>
+    </article>
 
-        <p>These unique sales models provide massively reduced inspection costs that can result in a FREE inspection for your seller.</p>
-        
-    </section>      
-    <section class="d">
-        <picture>
-            <img src="/images/content/agents2-1@0.5x.jpg" srcset="/images/content/agents2.jpg 2x">    
-        </picture>
-    </section> 
-</article>
+    <hr>
+    <!-- end cms landing content -->
+
+    <article class="centerMe">
+        <section>
+            <h1>Snapshot</h1>
+            <p>You can now offer your vendor a massively reduced (possibly FREE) Pre-sale Building Inspection.</p>
+            <p>MSIP is the new process creating Independent, trusted reports the homebuyer can rely on.</p>
+            <p>The ROI for the Home-seller is now maximised for their Pre-sale Inspection report.</p>
+        </section>      
+        <section class="d">
+            <picture>
+                <img src="/images/content/agents1-1@0.5x.jpg" srcset="/images/content/agents1.jpg 2x">    
+            </picture>
+        </section> 
+    </article>
+
+    <hr>
 
 
+    <article class="flip centerMe">
+        <section>
+                
+            <h1>Unique sales models</h1>
+            <p>You the agent, can now offer your vendors CheckedOut's unique sales models as an additional incentive  for your seller to order a Pre Sale Inspection Report through CheckedOut, beyond the benefit of aiding buyer due diligence.</p>
 
-
+            <p>These unique sales models provide massively reduced inspection costs that can result in a FREE inspection for your seller.</p>
+            
+        </section>      
+        <section class="d">
+            <picture>
+                <img src="/images/content/agents2-1@0.5x.jpg" srcset="/images/content/agents2.jpg 2x">    
+            </picture>
+        </section> 
+    </article>
+    
     </main>
-    <!-- end content -->
 
 
     <!-- sitewide footer -->

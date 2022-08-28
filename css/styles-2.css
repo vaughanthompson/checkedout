@@ -1,0 +1,42 @@
+﻿a.btn-outline-primary, a:visited.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    text-decoration:none!important;
+}
+
+a.btn-outline-danger, a:visited.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+a:hover.btn-outline-primary, a:hover.btn-outline-danger {
+    color: #fff!important;
+}
+
+
+@media screen and (min-width: 750px) {
+
+    .fullWidth {
+        -ms-flex-preferred-size: 87%;
+        flex-basis: 87%;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 749px) {
+
+    article section:not(:first-child) {
+        padding-top: 25px;
+    }
+}
+
+
+
+
+.alert-success {
+    background-color: #a0faa5;
+}
+
+
