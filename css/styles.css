@@ -2602,9 +2602,6 @@ nav a {
   padding: 0 0.75vw 0 0.75vw;
   margin: 0 0.1vw;
 }
-header nav a:last-child {
-  padding-right: 0;
-}
 h1,
 h2,
 h3,
