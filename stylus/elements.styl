@@ -323,17 +323,31 @@ i.block
 
 
 // video
+
+
+
+
+
 .pbVideo
     position: relative
     padding-bottom: 56.25%
     padding-top: 0
     height: 0
+    margin-bottom: 1em
 .pbVideo iframe 
     position: absolute
     top: 0
     left: 0
     width: 100%
     height: 100%
+div.videoFrame div.pbVideo
+    margin-bottom: 0
+div.videoFrame 
+    padding: padXXS*0.5
+    box-shadow: 0 2px 15px 5px blackAlp10
+    border-radius: 4px
+
+
 div.video
     position: relative
 div.video > div
@@ -371,7 +385,7 @@ img.med
     width: 75%
     margin: 0px auto
 img.lozenge
-    width: 170px
+    width: 150px
 
 
 
@@ -411,20 +425,24 @@ div.slider
 /* simple list */
 ul.featureList
     padding:0
+    position: relative
 ul.featureList li
     list-style-type: none
     line-height:1.5em
-    margin-bottom: 0.75em
-    margin-left:15px
+    margin-bottom: 0.15em
+    margin-left:20px
 ul.featureList li strong
     display: inline-block
     min-width:12%
 ul.featureList li:before
     font-family: 'icomoon'
     content: "\e906"
-    font-size: 0.9em
+    font-size: 1em
     margin-right:3px
-    margin-left:-15px
+    margin-left:-20px
+    position: absolute
+
+
 
 
 /* footer list */
@@ -452,11 +470,19 @@ div.containSlider
     margin-bottom: marM
 body.brand div.containSlider
     margin-top: marM
+@media phoneRule
+    div.containSlider
+        margin-bottom: marXL
+
 
 body.lightSlider div.slickSlider
     background-color: white
 div.slickSlider
     background-color: brand1
+@media dtrigger
+    div.slickSlider
+    div.slick-list
+        border-radius: 0.5em
 
 div.slideTextOverlay
     position: absolute
@@ -1093,3 +1119,7 @@ div.showHideDetail
 a.showHideTrigger:hover
     background-color: blackAlp50
     color: #fff
+
+
+.orange
+    color: brand1
