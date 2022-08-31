@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+    <title>CheckedOut - NZ's independent property inspection platform : Welcome</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, shrink-to-fit=no">
+    <meta name="twitter:title" property="og:title" content="CheckedOut. Independent Property Inspection Platform." />
+    <meta name="twitter:card" content="CheckedOut">
+    <meta name="twitter:site" property="og:site_name" content="CheckedOut. Independent Property Inspection Platform." />
+    <meta name="description" property="og:description" content="A transparent new service that delivers a truly independent property report, through our multi-stage inspection process. " />
+    <meta name="twitter:image" property="og:image" content="https://checkedout.co.nz/images/icons/200x200profile.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:url" property="og:url" content="https://checkedout.co.nz" />
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/images/icons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+
+
+    <!-- css -->
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+        
+    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="/js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/js/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="/images/icons/icomoon/style.css" />
+    <link rel="stylesheet" type="text/css" href="/fonts/Inter/interCustom.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/form.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles-2.css" />
+
+    <!-- bootstrap css stuff -->
+    
+
+       
+</head>
+
+
+
+
+<body id="home" class="home">
+
+    <div id="navMobile">
+        <a href="#home" id="toTop" class="icon"><i class="icon-triangle-up"></i></a>
+    </div>
+
+
+    <div id="navHeader" class="navHeight m">
+        <a href="#" class="imgText siteLogo mLogo long">
+            <picture class="logoAsset">
+                <img src="/images/logo-full.svg" alt="CheckedOut">
+            </picture>    
+        </a>
+
+        <div id="mblNavControl">
+            <a href="#" id="navTrigger" class="icon"><i class="icon-menu"></i></a>
+            <a href="#" id="navClose" class="icon"><i class="icon-cross1"></i></a>
+        </div>
+    </div>
+
+    <div class="mblnav m">
+        <div class="mblnavContainer">
+            <div class="navHeight">&nbsp;</div>
+                <div class="containMNav">
+                    <h3>Hi Vaughan <a href="/signout"><i class="icon-inline icon-triangle-right"></i> Logout</a></h3>
+                    <nav>
+                        <a href="">Create Report</a>
+                        <a href="">My Reports (1)</a>
+                        <a href="">Messages (2)</a>
+                        <a href="">My Account</a>
+                        <a href="">My Dashboard</a>
+                    </nav>
+                    <hr>
+                    <nav class="rows">
+                        <a href="">Home Sellers</a>
+                        <a href="">Home Buyers</a>
+                        <a href="">Inspectors</a>
+                        <a href="">Agents</a>
+                        <a href="">FAQ</a>                        
+                        <a href="">Contact Us</a>
+                        <a href="">Home</a>
+                    </nav>
+                </div>  
+            </div>
+        <div class="navHeight">&nbsp;</div>  
+    </div>   
+        
+    <div class="navHeight m">&nbsp;</div>
+    <!-- end mobile navigation -->
+
+
+
+    <header class="d">
+        <a href="#" class="imgText siteLogo long">
+            <picture class="logoAsset">
+                <img src="/images/logo-full.svg" alt="CheckedOut">
+            </picture>    
+        </a>
+        <nav>
+            <a href="/sellers.html">Home Sellers</a>
+            <a href="/buyers.html">Home Buyers</a>
+            <a href="/inspectors.html">Inspectors</a>
+            <a href="/agents.html">Agents</a>
+            <a href="/contact">Contact Us</a>
+            <a href="/">Home</a>            
+            <a href="/account" title="Join or Login here" class="ctaButton">Join / Login Here</a>
+        </nav> 
+    </header>
+
+
+    
+    
+
+    
+      
+    
+
+    <main class="gradientShdw">
+        <article class="subhead">
+    <section>        
+        <div id="breadcrumb">
+    <nav>
+        <a href="/">Home</a>
+            <i class="icon-triangle-right"></i>
+                <a href="#" class="activeLink">Request inspection: Step 1.</a>
+    </nav>
+</div>
+        <h1>Request a new building inspection</h1>
+        <p>
+            Invest in a massively reduced (possibly FREE) Pre-sale Building Inspection. 
+            With absolute transparency in the inspection report process, our MSIP system creates independent, trusted reports the home buyer can rely on.            
+        </p>
+        <p>
+            Begin by entering the address details of the property below.
+        </p>
+
+    </section>
+    <section>
+        <img src="/images/icons/MSIP.png" srcset="/images/icons/MSIP@2x.png 2x" class="lozenge">
+    </section>
+</article>
+<hr>
+<article>
+    <section>
+        <h3>Address details</h3>
+        <p>Start typing the street address of the property and select from the results.</p>
+        <form method="post" id="frmCreate" autocomplete="off" action="/building-inspection/request/step1" novalidate="novalidate">
+            <input type="hidden" value="" id="UniqueKey" name="UniqueKey">
+            <input type="hidden" id="RecaptchaToken" name="RecaptchaToken" value="03ANYolqtdqDvDz9_syKIAxIbzqbuJWwHvjfpV2O_KJJAyi92_07tM8QgBGlS75DJSBiFIB44gMptNHM0nsHU_LTXhd3AqjX2IkeGBWlo9DDTScOQ46q2pqtpqUMr8y4U6crXEzhCDEB1KmwDMvGgBfFKlHYdaAy0putzN4pTWNlTcUxVmNY00ZWrSaGTaUhH2F0ZX6z9GV8pCjalVguTeEhizCaNS_WOGee6g5mSf5IpjJ81FDrXMEXpvvQwQirH4mSBuWEAYAsPVs1C_hYhoaiaIzsFgT4wMZMInuL_J_SG_DxMiKAxxvdphqOJ496ZQKlEQ8wStoBcTGQzpgy1Iu9umYHT45EqrmPz_bHv2LmM8oNCPLukTXa5iMSpE5HXzLXP6tQUs10NyCcN6sm3lK-qhJB9pFf3zNBB557Xh_7jNzZBLnC8nc2ypsLdvk8pQJ8unA2I_6Xt2jdiT2U6pe7EIg2iCFFM40CRX000pyTSy_VOQ34VrCAte5ER8v7RmbDjPQtzD4unk6P2YifbXwtLVvWSZKk82GUVyD90zE3vC8c0TBI5hBw-wrmavOHsUpcELKCuEaw73DF4PTpFZJC9qk-WyFsE0qA">
+            <div class="text-danger validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+            <div class="form-group">
+                <input class="form-control pac-target-input" placeholder="Type address and choose from the results" autocomplete="off" type="text" data-val="true" data-val-maxlength="The field Address lookup must be a string or array type with a maximum length of '128'." data-val-maxlength-max="128" id="AddressLookup" maxlength="128" name="AddressLookup" value="">
+
+                <span class="text-danger field-validation-valid" data-valmsg-for="AddressLookup" data-valmsg-replace="true"></span>
+            </div>
+            <div id="divManualEntryMessage">
+                <p>
+                    * If you can't find the street address using the lookup, please manually enter the details below.
+                </p>
+            </div>
+
+            <div id="divCheckDetails" style="display:none;">
+                <div class="alert alert-primary">
+                    <p>
+                        Great, <strong>now check the address</strong> details are correct below and add apartment/unit details if applicable. Then <strong>click the continue button</strong> at the bottom of the page.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="form-group">
+                <label for="BuildingNameAndNumber">Building/unit/apartment number and name</label>
+                <div>
+                    If the property is an apartment, unit or has a building name, enter that here.
+                </div>
+                <div>
+                    <small>e.g. Unit 2, Flat 6, Suite 40C Imperial Apartments</small>
+                </div>
+                <input class="form-control" autocomplete="off" type="text" data-val="true" data-val-maxlength="The field Building/unit/apartment number and name must be a string or array type with a maximum length of '128'." data-val-maxlength-max="128" id="BuildingNameAndNumber" maxlength="128" name="BuildingNameAndNumber" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="BuildingNameAndNumber" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label for="StreetAddress">Street number and name</label>
+                <input class="form-control" placeholder="e.g. 100 Main Road" autocomplete="off" type="text" data-val="true" data-val-maxlength="The field Street number and name must be a string or array type with a maximum length of '128'." data-val-maxlength-max="128" data-val-required="The Street number and name field is required." id="StreetAddress" maxlength="128" name="StreetAddress" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="StreetAddress" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label for="Suburb">Suburb</label>
+                <input class="form-control" placeholder="Optional" autocomplete="off" type="text" data-val="true" data-val-maxlength="The field Suburb must be a string or array type with a maximum length of '128'." data-val-maxlength-max="128" id="Suburb" maxlength="128" name="Suburb" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Suburb" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label for="City">City</label>
+                <input class="form-control" placeholder="e.g. Auckland, Christchurch" autocomplete="off" type="text" data-val="true" data-val-maxlength="The field City must be a string or array type with a maximum length of '128'." data-val-maxlength-max="128" data-val-required="The City field is required." id="City" maxlength="128" name="City" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label for="Postcode">Postcode</label>
+                <input class="form-control" placeholder="e.g. 8083" type="text" data-val="true" data-val-maxlength="The field Postcode must be a string or array type with a maximum length of '64'." data-val-maxlength-max="64" data-val-required="The Postcode field is required." id="Postcode" maxlength="64" name="Postcode" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Postcode" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group">
+                <label for="Region">Region</label>
+                <select class="form-control" data-val="true" data-val-required="The Region field is required." id="Region" name="Region">
+                    <option value="">Select a region</option>
+                <option value="10">Northland</option>
+<option value="20">Auckland</option>
+<option value="30">Waikato</option>
+<option value="40">Bay of Plenty</option>
+<option value="50">Gisborne</option>
+<option value="60">Hawke's Bay</option>
+<option value="70">Taranaki</option>
+<option value="80">Manawatu-Wanganui</option>
+<option value="90">Wellington</option>
+<option value="100">Nelson / Tasman</option>
+<option value="110">Marlborough</option>
+<option value="120">West Coast</option>
+<option value="130">Canterbury</option>
+<option value="140">Otago</option>
+<option value="150">Southland</option>
+</select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Region" data-valmsg-replace="true"></span>
+            </div>
+            <div class="form-group" style="display:none;">
+                <label for="AddressLookupRegion">AddressLookupRegion</label>
+                <input class="form-control" type="text" data-val="true" data-val-maxlength="The field AddressLookupRegion must be a string or array type with a maximum length of '128'." data-val-maxlength-max="128" id="AddressLookupRegion" maxlength="128" name="AddressLookupRegion" value="">
+                <span class="text-danger field-validation-valid" data-valmsg-for="AddressLookupRegion" data-valmsg-replace="true"></span>
+            </div>
+            <div class="row Submit" >
+                <div class="col-md-2">
+                    <input type="submit" value="Continue >" class="btn btn-outline-primary">
+                </div>
+            </div>
+            <div class="row Loading" style="display: none;">
+                <div class="col-md-2">
+                    <input type="button" value="Loading..." class="btn btn-outline-dark" disabled="disabled">
+                </div>
+            </div>
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8I-EWLymQnZItWLIZjFu3UkxiZsHI2zbpNJh237GQUEd0_VMyA-Gc5fcF7068IDnpQ0muypMan1unmiH9DS4P_Tkx7Kpc5iu1Zx0eF2f4nFIRY0Nlp0B5qBrp6ziF75YZNpGKmeKwOAp7EXWrGj49KA"></form>
+    </section>
+</article>
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+            
+    <!-- end content -->
+
+
+    <!-- sitewide footer -->
+    <footer id="siteWide">
+        <section>
+                <h5>Home Buyers</h5>
+                <ul> 
+                    <li><a href="/">Landing Link</a></li>
+                    <li><a href="/">Other Page</a></li>
+                    <li><a href="/">Other Page</a></li>
+                    <li><a href="/">Other Page</a></li>
+                    <li><a href="/">Other Page</a></li>
+                </ul>  
+        </section>            
+        <section>
+                <h5>Home Buyers</h5>
+                <ul> 
+                    <li><a href="/">Landing Link</a></li>
+                    <li><a href="/">Other Page</a></li>
+                    <li><a href="/">Other Page</a></li>
+                    <li><a href="/">Other Page</a></li>
+                </ul>  
+        </section>     
+        <section>
+            <h5>Inspectors</h5>
+            <ul> 
+                <li><a href="/">Landing Link</a></li>
+                <li><a href="/">Other Page</a></li>
+            </ul>  
+
+            <h5>Agents</h5>
+            <ul> 
+                <li><a href="/">Landing Link</a></li>
+                <li><a href="/">Other Page</a></li>
+            </ul>  
+    </section>          
+        <section>
+                <a href="#" class="imgText siteLogo long">
+                    <picture class="logoAsset">
+                        <img src="/images/logo-full.svg" alt="CheckedOut">
+                    </picture>
+                </a>
+                <br><br>
+                <ul> 
+                    <li><a href="/">Contact Us</a></li>
+                    <li><a href="/">FAQ</a></li>
+                    <li><a href="/" class="activeLink">Home</a></li>
+                </ul>  
+                
+                <p class="small">
+                    <a href="/">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/">Terms of Use</a><br>
+                    Copyright 2021. All rights reserved.
+                </p>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.waypoints.min.js" ></script>
+    <script type="text/javascript" src="/js/inview.js" ></script>
+    <script type="text/javascript" src="/js/picturefill-background.js"></script>
+    <script type="text/javascript" src="/js/jquery.scrollTo-2.1.0/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.localScroll-1.4.0/jquery.localScroll.min.js"></script>
+    <script type="text/javascript" src="/js/easing.js"></script>
+    <script type="text/javascript" src="/js/site1.js"></script>
+
+
+
+
+
+</body>
+</html>
