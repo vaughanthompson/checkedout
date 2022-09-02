@@ -2509,7 +2509,7 @@ div.catList {
 div.checkPromo {
   display: inline-block;
   background-color: rgba(0,0,0,0.5);
-  padding: 1.5vw 2vw 0.75vw 2vw;
+  padding: 1.275vw 2vw 0.75vw 2vw;
   border-radius: 0.5em;
 }
 div.checkPromo > div {
