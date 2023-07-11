@@ -2550,6 +2550,19 @@ a.showHideTrigger:hover {
 .orange {
   color: #f15d25;
 }
+div.phoneInPage {
+  text-align: center;
+  padding: 1vw;
+  margin-top: -2vw;
+  color: rgba(0,0,0,0.5);
+}
+@media screen and (max-width: 850px) {
+  div.phoneInPage {
+    padding: 5vw 5vw 3vw 5vw;
+    background-color: #fff;
+    color: rgba(0,0,0,0.75);
+  }
+}
 a:link,
 a:visited {
   color: #f15d25;
